@@ -1,0 +1,36 @@
+.container {
+  margin: 10% 25% 10%;
+}
+
+.result-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.buttons {
+  height: 300px;
+  width: 300px;
+}
+
+.button {
+  float: left;
+}
+
+.rowOfButtons:nth-child(5) .button:nth-child(1) {
+    width: 150px !important;
+}
+
+.rowOfButtons {
+  .button:nth-child(4)  {
+    background-color: orange !important;
+  }
+    
+}
+
+.button {
+  span {
+    margin: 0;
+  }
+}
